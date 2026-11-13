@@ -95,7 +95,7 @@ def main(page: ft.Page):
     }
 
     profil_dosya_secici = ft.FilePicker()
-    page.services.append(profil_dosya_secici)
+    page.overlay.append(profil_dosya_secici)
 
     katalog = {
         "Bench Press": "Chest", "Incline Dumbbell Press": "Chest",
