@@ -686,4 +686,4 @@ def main(page: ft.Page):
     login_ekrani_goster()
 
 if __name__ == "__main__":
-    ft.run(main, assets_dir="assets")
+    ft.app(target=main, assets_dir="assets")
